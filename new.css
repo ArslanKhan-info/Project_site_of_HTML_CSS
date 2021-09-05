@@ -10,7 +10,7 @@ body{
 	background-color: white;
 	border:1px solid black;
 	border-radius: 25px;
-	max-width:1200px;
+	width:1200px;
 	margin:20px auto;
 	box-shadow:10px 10px 10px black;
 }
@@ -23,6 +23,9 @@ header{
 }
 nav{
 	float:right
+}
+.img{
+	width:100%;
 }
 main{
 	display:inline-block;
@@ -90,22 +93,4 @@ aside ul{
 }
 footer{
 	text-align:center;
-}
-@media screen and (max-width:768px){
-	.reasons{
-		flex-wrap:wrap;
-	}
-}
-@media screen and (max-width:679px){
-	.reasons{
-		flex-wrap:wrap;
-	}
-	aside{
-		margin-right:5px;
-		margin-left:0px;
-		font-size:10px
-	}
-	.info{
-		margin:0px;
-	}
 }
